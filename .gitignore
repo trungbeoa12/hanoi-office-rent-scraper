@@ -45,7 +45,6 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-output/
 data/
 logs/
 *.csv
@@ -66,3 +65,7 @@ chromedriver-linux64/
 *.tmp
 *.temp
 *.log
+
+# Large output files (keep only demo files)
+output/output_*.csv
+!output/demo_*.csv
